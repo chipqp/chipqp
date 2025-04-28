@@ -1,7 +1,5 @@
-- 👋 Hi, I’m @chipqp
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning C#
-- 💞️ I’m looking to collaborate on ...
+- 👋 Hi, I’m Yaroslav
+- 🌱 I’m currently learning Python, HTML and CSS
 - 📫 How to reach me, Telegram: @chipqp
 
 <!---
