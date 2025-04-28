@@ -1,6 +1,4 @@
-- 👋 Hi, I’m Yaroslav
-- 🌱 I’m currently learning Python, HTML and CSS
-- 📫 How to reach me, Telegram: @chipqp
+...in progress...
 
 <!---
 chipqp/chipqp is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
