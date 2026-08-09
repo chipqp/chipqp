@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 
 
 USERNAME = os.getenv("GITHUB_REPOSITORY_OWNER", "chipqp")
-BIRTH_DATE = os.getenv("BIRTH_DATE", "").strip()
+BIRTH_DATE = os.getenv("BIRTH_DATE", "").strip() or "2006-09-05"
 TOKEN = os.getenv("GH_TOKEN", os.getenv("GITHUB_TOKEN", "")).strip()
 SVG_FILES = (Path("profile-dark.svg"), Path("profile-light.svg"))
 REQUIRED_IDS = {
