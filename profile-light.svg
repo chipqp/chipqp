@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" font-family="ConsolasFallback,Consolas,'Liberation Mono',Menlo,monospace" font-size="18">
   <style>
     @font-face {
@@ -14,13 +14,13 @@
     text, tspan { white-space: pre; }
   </style>
 
-  <rect width="1000" height="700" rx="16" fill="#f6f8fa"/>
+  <rect width="1000" height="700" rx="16" fill="#f6f8fa" />
   <text x="35" y="40" fill="#24292f">
     <tspan x="35" y="40">yaroslav@github</tspan><tspan class="muted"> ---------------------------------------------------------------</tspan>
 
     <tspan x="35" y="75" class="muted">. </tspan><tspan class="key">Name</tspan>:<tspan class="muted"> .................................. </tspan><tspan class="value">Yaroslav Groma</tspan>
     <tspan x="35" y="105" class="muted">. </tspan><tspan class="key">Role</tspan>:<tspan class="muted"> .................................. </tspan><tspan class="value">Information Technologies Student</tspan>
-    <tspan x="35" y="135" class="muted">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="muted" id="age_data_dots"> ................................. </tspan><tspan class="value" id="age_data">19 years, 11 months, 4 days</tspan>
+    <tspan x="35" y="135" class="muted">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="muted" id="age_data_dots"> .................................. </tspan><tspan class="value" id="age_data">19 years, 11 months, 4 days</tspan>
     <tspan x="35" y="165" class="muted">. </tspan><tspan class="key">Location</tspan>:<tspan class="muted"> .............................. </tspan><tspan class="value">Olomouc, Czech Republic</tspan>
     <tspan x="35" y="195" class="muted">. </tspan><tspan class="key">Education</tspan>:<tspan class="muted"> ............................. </tspan><tspan class="value">Palacký University Olomouc</tspan>
     <tspan x="35" y="225" class="muted">. </tspan><tspan class="key">Degree</tspan>:<tspan class="muted"> ................................. </tspan><tspan class="value">BSc Information Technologies · 2024—2027</tspan>
@@ -38,7 +38,7 @@
 
     <tspan x="35" y="575">- GitHub Stats </tspan><tspan class="muted">---------------------------------------------------------------------</tspan>
     <tspan x="35" y="610" class="muted">. </tspan><tspan class="key">Repos</tspan>:<tspan class="muted" id="repo_data_dots"> ............. </tspan><tspan class="value" id="repo_data">6</tspan><tspan>  |  </tspan><tspan class="key">Stars</tspan>:<tspan class="muted" id="star_data_dots"> ............. </tspan><tspan class="value" id="star_data">4</tspan>
-    <tspan x="35" y="640" class="muted">. </tspan><tspan class="key" id="contrib_label">Contributions 2026</tspan>:<tspan class="muted" id="contrib_data_dots"> ............. </tspan><tspan class="value" id="contrib_data">5</tspan><tspan>  |  </tspan><tspan class="key">Followers</tspan>:<tspan class="muted" id="follower_data_dots"> ............. </tspan><tspan class="value" id="follower_data">1</tspan>
+    <tspan x="35" y="640" class="muted">. </tspan><tspan class="key" id="contrib_label">Contributions 2026</tspan>:<tspan class="muted" id="contrib_data_dots"> ............. </tspan><tspan class="value" id="contrib_data">9</tspan><tspan>  |  </tspan><tspan class="key">Followers</tspan>:<tspan class="muted" id="follower_data_dots"> ............. </tspan><tspan class="value" id="follower_data">1</tspan>
     <tspan x="35" y="670" class="muted">. </tspan><tspan class="key">On GitHub since</tspan>:<tspan class="muted"> ...................... </tspan><tspan class="value" id="account_year">2023</tspan><tspan>  |  </tspan><tspan class="key">Last refresh</tspan>:<tspan class="muted"> ........ </tspan><tspan class="success" id="updated_data">2026-08-09</tspan>
   </text>
 </svg>
