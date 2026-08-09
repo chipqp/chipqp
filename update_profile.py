@@ -73,7 +73,13 @@ def age_text(birth_date: str, today: dt.date | None = None) -> str:
     cursor = add_months(born, months)
     years, remaining_months = divmod(months, 12)
     days = (current - cursor).days
-    return f"{years}y {remaining_months}m {days}d"
+    year_word = "year" if years == 1 else "years"
+    month_word = "month" if remaining_months == 1 else "months"
+    day_word = "day" if days == 1 else "days"
+    return (
+        f"{years} {year_word}, {remaining_months} {month_word}, "
+        f"{days} {day_word}"
+    )
 
 
 def fetch_repositories() -> list[dict]:
@@ -167,11 +173,11 @@ def update_svg(path: Path, values: dict[str, str]) -> None:
     for element_id, value in values.items():
         elements[element_id].text = value
 
-    elements["age_data_dots"].text = dot_fill(values["age_data"], 31)
-    elements["repo_data_dots"].text = dot_fill(values["repo_data"], 8)
-    elements["star_data_dots"].text = dot_fill(values["star_data"], 8)
-    elements["follower_data_dots"].text = dot_fill(values["follower_data"], 8)
-    elements["contrib_data_dots"].text = dot_fill(values["contrib_data"], 5)
+    elements["age_data_dots"].text = dot_fill(values["age_data"], 61)
+    elements["repo_data_dots"].text = dot_fill(values["repo_data"], 14)
+    elements["star_data_dots"].text = dot_fill(values["star_data"], 14)
+    elements["follower_data_dots"].text = dot_fill(values["follower_data"], 14)
+    elements["contrib_data_dots"].text = dot_fill(values["contrib_data"], 14)
 
     tree.write(path, encoding="utf-8", xml_declaration=True)
 
