@@ -1,62 +1,87 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,'Liberation Mono',monospace" width="1200" height="530" font-size="16">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
   <style>
-    @font-face { src: local('Consolas'); font-family: 'ConsolasFallback'; font-display: swap; }
-    .key { fill: #953800; }
-    .value { fill: #0550ae; }
-    .muted { fill: #57606a; }
-    .accent { fill: #1a7f37; }
+    .title { fill: #24292f; font-size: 34px; font-weight: 700; }
+    .subtitle { fill: #24292f; font-size: 21px; font-weight: 600; }
+    .body { fill: #24292f; font-size: 18px; }
+    .muted { fill: #57606a; font-size: 17px; }
+    .section { fill: #0969da; font-size: 14px; font-weight: 700; letter-spacing: 2px; }
+    .label { fill: #57606a; font-size: 16px; font-weight: 600; }
+    .value { fill: #24292f; font-size: 18px; }
+    .link { fill: #0969da; font-size: 18px; }
+    .stat-label { fill: #57606a; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
+    .stat-value { fill: #24292f; font-size: 19px; font-weight: 650; }
+    .success { fill: #1a7f37; }
+    .hidden { display: none; }
     text, tspan { white-space: pre; }
   </style>
-  <rect width="1200" height="530" fill="#f6f8fa" rx="15" />
-  <text x="15" y="30" fill="#24292f" font-size="13" aria-label="ASCII portrait of Yaroslav Groma">
-    <tspan x="15" y="30">:::.  .. -%@@@@@@@@@@@@@@@@@@@@@@@@@#-:.:=</tspan>
-    <tspan x="15" y="50">**++.-++*@@@@@@@@@@@@@@@@@@@@@@@@@@@@+:...</tspan>
-    <tspan x="15" y="70">****==**@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#::..</tspan>
-    <tspan x="15" y="90">#****-*%@@@@@@@@@@@@@%%@@@@@@@@@@@@@@#:::.</tspan>
-    <tspan x="15" y="110">====+.=%@@@@@@@@@@@@@%##@@@@@@@@@@@@@*:::.</tspan>
-    <tspan x="15" y="130">=-:...:#@@@@@@@@%#@@@@%#%@@@@@@@@@@@@*--::</tspan>
-    <tspan x="15" y="150">@#**+**%%@@@@@%%#*#@@@@@%%%@@@@@@@@@%==-::</tspan>
-    <tspan x="15" y="170">@@##*###%%%%#%##+*##%###*+=-+#@@@%=*#=--::</tspan>
-    <tspan x="15" y="190">@@@%###%%%#+*#%#+-=*%%##*-:::-*@#+*=%%#*+=</tspan>
-    <tspan x="15" y="210">@@@@@@@@@@%=*#*+-::-=++=::::-=+*===+@@@@@%</tspan>
-    <tspan x="15" y="230">@@@@@@@@@@@---=-:::::::::::--=======-=*#%@</tspan>
-    <tspan x="15" y="250">@@@@@@@@%%%+---::::---:::----==+===:   .:=</tspan>
-    <tspan x="15" y="270">@@@@@@@@%##*--==--==--::------+=.-. ....</tspan>
-    <tspan x="15" y="290">@@@@@@@@@%%%+-=====----------=%+:. .   ...</tspan>
-    <tspan x="15" y="310">@@@@#++*****=-=+***+++==--+***%@%+=-::. ..</tspan>
-    <tspan x="15" y="330">@@@@@%*=-::..:==+++==-===+#%#**%@#++===:..</tspan>
-    <tspan x="15" y="350">%%*+-::.......:===-----=**+*#++=*%*+==---=</tspan>
-    <tspan x="15" y="370">:............:.:-=====+*%#*##+++=*+++++=-=</tspan>
-    <tspan x="15" y="390">:.....::...:::.:-=+++**#%%%*+**++**++==:.:</tspan>
-    <tspan x="15" y="410">.::...::...----:=++++***##*+*+##***=-:....</tspan>
-    <tspan x="15" y="430">.......:::---::.:+******#*++**%#*#*+:....</tspan>
-    <tspan x="15" y="450">. ... ..::-::..:..:--==--+*==*##*+-.</tspan>
-    <tspan x="15" y="470">       ....... ..        .:......</tspan>
-    <tspan x="15" y="490">                  .......        ...</tspan>
-    <tspan x="15" y="510">        ..               ... ...</tspan>
-  </text>
-  <text x="420" y="30" fill="#24292f" transform="translate(60 0)">
-    <tspan x="420" y="30">yaroslav@github</tspan><tspan class="muted"> ———————————————————————————————</tspan>
-    <tspan x="420" y="55" class="muted">. </tspan><tspan class="key">Name</tspan>:<tspan class="muted"> ...................... </tspan><tspan class="value">Yaroslav Groma</tspan>
-    <tspan x="420" y="80" class="muted">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="muted" id="age_data_dots"> ..................... </tspan><tspan class="value" id="age_data">19y 11m 4d</tspan>
-    <tspan x="420" y="105" class="muted">. </tspan><tspan class="key">OS</tspan>:<tspan class="muted"> ......................... </tspan><tspan class="value">macOS / Linux</tspan>
-    <tspan x="420" y="130" class="muted">. </tspan><tspan class="key">Focus</tspan>:<tspan class="muted"> .............. </tspan><tspan class="value">Web &amp; systems development</tspan>
-    <tspan x="420" y="155" class="muted">. </tspan><tspan class="key">Editor</tspan>:<tspan class="muted"> ......................... </tspan><tspan class="value">VS Code</tspan>
 
-    <tspan x="420" y="195" class="muted">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="muted"> .. </tspan><tspan class="value">C, JavaScript, PHP, Shell</tspan>
-    <tspan x="420" y="220" class="muted">. </tspan><tspan class="key">Languages.Web</tspan>:<tspan class="muted"> ................ </tspan><tspan class="value">HTML, CSS</tspan>
-    <tspan x="420" y="245" class="muted">. </tspan><tspan class="key">Currently</tspan>:<tspan class="muted"> .............. </tspan><tspan class="value">learning, building, shipping</tspan>
+  <rect width="1200" height="720" rx="18" fill="#f6f8fa"/>
+  <rect width="7" height="720" rx="3.5" fill="#0969da"/>
 
-    <tspan x="420" y="290">contact</tspan><tspan class="muted"> —————————————————————————————————————</tspan>
-    <tspan x="420" y="315" class="muted">. </tspan><tspan class="key">Telegram</tspan>:<tspan class="muted"> ..................... </tspan><tspan class="value">@chipqp</tspan>
-    <tspan x="420" y="340" class="muted">. </tspan><tspan class="key">Instagram</tspan>:<tspan class="muted"> .................... </tspan><tspan class="value">@chipqp</tspan>
-    <tspan x="420" y="365" class="muted">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="muted"> ....................... </tspan><tspan class="value">@chipqp</tspan>
+  <text x="48" y="66" class="title">Yaroslav Groma</text>
+  <text x="48" y="105" class="subtitle">Information Technologies student building AI-powered applications.</text>
+  <text x="48" y="138" class="body">Focused on machine learning integration, Python backends, and algorithmic problem solving.</text>
+  <text x="48" y="171" class="muted">Olomouc, Czech Republic · open to internships and junior roles · remote / hybrid</text>
 
-    <tspan x="420" y="410">github.stats</tspan><tspan class="muted"> ——————————————————————————————</tspan>
-    <tspan x="420" y="435" class="muted">. </tspan><tspan class="key">Repositories</tspan>:<tspan class="muted" id="repo_data_dots"> ....... </tspan><tspan class="value" id="repo_data">6</tspan><tspan> | </tspan><tspan class="key">Stars</tspan>:<tspan class="muted" id="star_data_dots"> ....... </tspan><tspan class="value" id="star_data">4</tspan>
-    <tspan x="420" y="460" class="muted">. </tspan><tspan class="key">Followers</tspan>:<tspan class="muted" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">1</tspan><tspan> | </tspan><tspan class="key" id="contrib_label">Contributions 2026</tspan>:<tspan class="muted" id="contrib_data_dots"> .... </tspan><tspan class="value" id="contrib_data">5</tspan>
-    <tspan x="420" y="485" class="muted">. </tspan><tspan class="key">On GitHub since</tspan>:<tspan class="muted"> ................ </tspan><tspan class="value" id="account_year">2023</tspan>
-    <tspan x="420" y="510" class="muted">. </tspan><tspan class="key">Last refresh</tspan>:<tspan class="muted"> .................. </tspan><tspan class="accent" id="updated_data">2026-08-09</tspan>
+  <g aria-label="Focus areas">
+    <rect x="850" y="38" width="90" height="34" rx="17" fill="#ddf4ff"/>
+    <text x="895" y="61" fill="#0969da" font-size="14" font-weight="700" text-anchor="middle">AI / ML</text>
+    <rect x="950" y="38" width="105" height="34" rx="17" fill="#ddf4ff"/>
+    <text x="1002" y="61" fill="#0969da" font-size="14" font-weight="700" text-anchor="middle">BACKEND</text>
+    <rect x="1065" y="38" width="100" height="34" rx="17" fill="#ddf4ff"/>
+    <text x="1115" y="61" fill="#0969da" font-size="14" font-weight="700" text-anchor="middle">ALGORITHMS</text>
+  </g>
+
+  <rect x="40" y="204" width="1120" height="154" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="68" y="235" class="section">CURRENT PROJECT</text>
+  <text x="68" y="272" fill="#24292f" font-size="23" font-weight="700">AI-Powered Dictaphone</text>
+  <text x="1132" y="270" class="label" text-anchor="end">BACHELOR'S THESIS · 2026—PRESENT</text>
+  <text x="68" y="308" class="body">Live recording / file upload · faster-whisper transcription · segmentation · structured output</text>
+  <text x="68" y="340" class="label">STACK</text>
+  <text x="132" y="340" class="value">Python · FastAPI · React · Docker · Whisper</text>
+
+  <text x="48" y="401" class="section">TOOLKIT &amp; BACKGROUND</text>
+  <text x="48" y="440" class="label">Core</text>
+  <text x="166" y="440" class="value">Python · C · Java · SQL</text>
+  <text x="48" y="474" class="label">AI / Data</text>
+  <text x="166" y="474" class="value">NumPy · Pandas · Matplotlib · faster-whisper</text>
+  <text x="48" y="508" class="label">Backend</text>
+  <text x="166" y="508" class="value">FastAPI · Flask · REST APIs · Docker · Linux · Git</text>
+
+  <text x="632" y="440" class="label">Education</text>
+  <text x="750" y="440" class="value">BSc Information Technologies · 2024—2027</text>
+  <text x="750" y="467" class="muted">Palacký University Olomouc</text>
+  <text x="632" y="501" class="label">Languages</text>
+  <text x="750" y="501" class="value">Ukrainian native · Czech B2 · English B2</text>
+
+  <text x="48" y="558" class="section">CONTACT</text>
+  <text x="48" y="594" class="label">Telegram</text>
+  <text x="135" y="594" class="link">t.me/chipqp</text>
+  <text x="386" y="594" class="label">LinkedIn</text>
+  <text x="478" y="594" class="link">linkedin.com/in/yaroslav-groma-a95a60236</text>
+
+  <rect x="40" y="625" width="1120" height="70" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="66" y="651" class="stat-label">UPTIME</text>
+  <text x="66" y="679" class="stat-value" id="age_data">19y 11m 4d</text>
+  <text x="238" y="651" class="stat-label">REPOS</text>
+  <text x="238" y="679" class="stat-value" id="repo_data">6</text>
+  <text x="338" y="651" class="stat-label">STARS</text>
+  <text x="338" y="679" class="stat-value" id="star_data">4</text>
+  <text x="438" y="651" class="stat-label">FOLLOWERS</text>
+  <text x="438" y="679" class="stat-value" id="follower_data">1</text>
+  <text x="570" y="651" class="stat-label" id="contrib_label">CONTRIBUTIONS 2026</text>
+  <text x="570" y="679" class="stat-value" id="contrib_data">5</text>
+  <text x="780" y="651" class="stat-label">ON GITHUB SINCE</text>
+  <text x="780" y="679" class="stat-value" id="account_year">2023</text>
+  <text x="960" y="651" class="stat-label">LAST REFRESH</text>
+  <text x="960" y="679" class="stat-value success" id="updated_data">2026-08-09</text>
+
+  <text class="hidden">
+    <tspan id="age_data_dots"/>
+    <tspan id="repo_data_dots"/>
+    <tspan id="star_data_dots"/>
+    <tspan id="follower_data_dots"/>
+    <tspan id="contrib_data_dots"/>
   </text>
 </svg>
