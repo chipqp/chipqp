@@ -55,7 +55,7 @@
 
     <tspan x="420" y="410">github.stats</tspan><tspan class="muted"> ——————————————————————————————</tspan>
     <tspan x="420" y="435" class="muted">. </tspan><tspan class="key">Repositories</tspan>:<tspan class="muted" id="repo_data_dots"> ....... </tspan><tspan class="value" id="repo_data">6</tspan><tspan> | </tspan><tspan class="key">Stars</tspan>:<tspan class="muted" id="star_data_dots"> ....... </tspan><tspan class="value" id="star_data">4</tspan>
-    <tspan x="420" y="460" class="muted">. </tspan><tspan class="key">Followers</tspan>:<tspan class="muted" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">1</tspan><tspan> | </tspan><tspan class="key" id="contrib_label">Contributions 2026</tspan>:<tspan class="muted" id="contrib_data_dots"> .. </tspan><tspan class="value" id="contrib_data">n/a</tspan>
+    <tspan x="420" y="460" class="muted">. </tspan><tspan class="key">Followers</tspan>:<tspan class="muted" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">1</tspan><tspan> | </tspan><tspan class="key" id="contrib_label">Contributions 2026</tspan>:<tspan class="muted" id="contrib_data_dots"> .... </tspan><tspan class="value" id="contrib_data">4</tspan>
     <tspan x="420" y="485" class="muted">. </tspan><tspan class="key">On GitHub since</tspan>:<tspan class="muted"> ................ </tspan><tspan class="value" id="account_year">2023</tspan>
     <tspan x="420" y="510" class="muted">. </tspan><tspan class="key">Last refresh</tspan>:<tspan class="muted"> .................. </tspan><tspan class="accent" id="updated_data">2026-08-09</tspan>
   </text>
