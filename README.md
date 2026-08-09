@@ -1,6 +1,11 @@
-...in progress...
+<a href="https://github.com/chipqp">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chipqp/chipqp/main/profile-dark.svg">
+    <img alt="Yaroslav Groma's GitHub profile" src="https://raw.githubusercontent.com/chipqp/chipqp/main/profile-light.svg" width="100%">
+  </picture>
+</a>
 
-<!---
-chipqp/chipqp is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!--
+  The card is refreshed automatically by .github/workflows/update-profile.yml.
+  Visual concept inspired by https://github.com/Andrew6rant/Andrew6rant.
+-->

@@ -1,0 +1,46 @@
+name: Update profile card
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+  push:
+    branches: [main]
+    paths:
+      - update_profile.py
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh profile SVGs
+        env:
+          BIRTH_DATE: ${{ vars.BIRTH_DATE }}
+          GH_TOKEN: ${{ github.token }}
+        run: python update_profile.py
+
+      - name: Commit changes
+        run: |
+          git add profile-dark.svg profile-light.svg
+          if git diff --cached --quiet; then
+            echo "Profile is already current"
+            exit 0
+          fi
+          git config user.name "chipqp-profile-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile card"
+          git push
