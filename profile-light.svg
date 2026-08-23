@@ -20,7 +20,7 @@
 
     <tspan x="35" y="60" class="muted">. </tspan><tspan class="key">Name</tspan>:<tspan class="muted"> .................................. </tspan><tspan class="value">Yaroslav Groma</tspan>
     <tspan x="35" y="85" class="muted">. </tspan><tspan class="key">Role</tspan>:<tspan class="muted"> .................................. </tspan><tspan class="value">Information Technologies Student</tspan>
-    <tspan x="35" y="110" class="muted">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="muted" id="age_data_dots"> ................................. </tspan><tspan class="value" id="age_data">19 years, 11 months, 17 days</tspan>
+    <tspan x="35" y="110" class="muted">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="muted" id="age_data_dots"> ................................. </tspan><tspan class="value" id="age_data">19 years, 11 months, 18 days</tspan>
     <tspan x="35" y="135" class="muted">. </tspan><tspan class="key">Location</tspan>:<tspan class="muted"> .............................. </tspan><tspan class="value">Olomouc, Czech Republic</tspan>
     <tspan x="35" y="160" class="muted">. </tspan><tspan class="key">Education</tspan>:<tspan class="muted"> ............................. </tspan><tspan class="value">Palacký University Olomouc</tspan>
     <tspan x="35" y="185" class="muted">. </tspan><tspan class="key">Degree</tspan>:<tspan class="muted"> ................................. </tspan><tspan class="value">BSc Information Technologies · 2024—2027</tspan>
@@ -38,6 +38,6 @@
     <tspan x="35" y="455">- GitHub Stats </tspan><tspan class="muted">---------------------------------------------------------------------</tspan>
     <tspan x="35" y="485" class="muted">. </tspan><tspan class="key">Repos</tspan>:<tspan class="muted" id="repo_data_dots"> ............. </tspan><tspan class="value" id="repo_data">4</tspan><tspan>  |  </tspan><tspan class="key">Stars</tspan>:<tspan class="muted" id="star_data_dots"> ............. </tspan><tspan class="value" id="star_data">4</tspan>
     <tspan x="35" y="510" class="muted">. </tspan><tspan class="key" id="contrib_label">Contributions 2026</tspan>:<tspan class="muted" id="contrib_data_dots"> ............ </tspan><tspan class="value" id="contrib_data">17</tspan><tspan>  |  </tspan><tspan class="key">Followers</tspan>:<tspan class="muted" id="follower_data_dots"> ............. </tspan><tspan class="value" id="follower_data">1</tspan>
-    <tspan x="35" y="535" class="muted">. </tspan><tspan class="key">On GitHub since</tspan>:<tspan class="muted"> ...................... </tspan><tspan class="value" id="account_year">2023</tspan><tspan>  |  </tspan><tspan class="key">Last refresh</tspan>:<tspan class="muted"> ........ </tspan><tspan class="success" id="updated_data">2026-08-22</tspan>
+    <tspan x="35" y="535" class="muted">. </tspan><tspan class="key">On GitHub since</tspan>:<tspan class="muted"> ...................... </tspan><tspan class="value" id="account_year">2023</tspan><tspan>  |  </tspan><tspan class="key">Last refresh</tspan>:<tspan class="muted"> ........ </tspan><tspan class="success" id="updated_data">2026-08-23</tspan>
   </text>
 </svg>
