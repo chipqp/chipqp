@@ -7,9 +7,7 @@ I enjoy building things, solving problems, and figuring out how technology works
 ### What I'm working on
 
 My bachelor's thesis is an **AI-powered web application for audio transcription and transcript post-processing**.
-
 The backend is built with Python and FastAPI, using faster-whisper for speech recognition. I'm also developing the frontend with React and Vite.
-
 My goal is to build a solid, well-structured application that I can continue improving beyond my bachelor's thesis.
 
 ### Tech stack
