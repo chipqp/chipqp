@@ -28,10 +28,6 @@ Python and C are my strongest languages, and backend development is where I feel
 - Building practical applications powered by AI
 - Learning new technologies by actually building things
 
-I'm actively looking for an **internship or junior developer position** where I can gain hands-on experience, contribute to real projects, and grow as a software engineer.
-
-I'm still early in my career, but I'm motivated to learn, take on challenges, and turn what I learn into working software.
-
 ### Outside of coding and studying
 
 - 🏋️ Gym
