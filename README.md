@@ -1,16 +1,39 @@
-<a href="https://github.com/chipqp">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chipqp/chipqp/main/profile-dark.svg?v=6">
-    <img alt="Yaroslav Groma's GitHub profile" src="https://raw.githubusercontent.com/chipqp/chipqp/main/profile-light.svg?v=6" width="100%">
-  </picture>
-</a>
+# Hi!
 
-<p align="center">
-  <a href="https://t.me/chipqp">Telegram</a> ·
-  <a href="https://www.linkedin.com/in/yaroslav-groma-a95a60236/">LinkedIn</a>
-</p>
+I'm **Yaroslav**, a final-year IT student at Palacký University in Olomouc, Czechia.
 
-<!--
-  The card is refreshed automatically by .github/workflows/update-profile.yml.
-  Visual concept inspired by https://github.com/Andrew6rant/Andrew6rant.
--->
+I enjoy building things, solving problems, and figuring out how technology works under the hood. I'm currently working on my bachelor's thesis and looking for an internship or an entry-level software engineering position where I can put my skills into practice and learn from experienced developers.
+
+### What I'm working on
+
+My bachelor's thesis is an **AI-powered web application for audio transcription and transcript post-processing**.
+
+The backend is built with Python and FastAPI, using faster-whisper for speech recognition. I'm also developing the frontend with React and Vite.
+
+My goal is to build a solid, well-structured application that I can continue improving beyond my bachelor's thesis.
+
+### Tech stack
+
+- **Languages:** Python, C, Java
+- **Backend & AI:** FastAPI, faster-whisper
+- **Databases:** PostgreSQL, MongoDB
+- **Tools & technologies:** Docker, React (basic familiarity)
+
+Python and C are my strongest languages, and backend development is where I feel most at home.
+
+### What I'm interested in
+
+- AI engineering and machine learning
+- Backend development and software architecture
+- Building practical applications powered by AI
+- Learning new technologies by actually building things
+
+I'm actively looking for an **internship or junior developer position** where I can gain hands-on experience, contribute to real projects, and grow as a software engineer.
+
+I'm still early in my career, but I'm motivated to learn, take on challenges, and turn what I learn into working software.
+
+### Outside of coding and studying
+
+- 🏋️ Gym
+- ⚽ Football
+- 📚 Reading
