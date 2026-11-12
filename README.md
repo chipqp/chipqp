@@ -1,33 +1,24 @@
-# Hi!
+# Hi, I'm Yaroslav! 
 
-I'm **Yaroslav**, a final-year IT student at Palacký University in Olomouc, Czechia.
+I'm a final-year **Information Technologies student at Palacký University** in Olomouc, Czechia.
 
-I enjoy building things, solving problems, and figuring out how technology works under the hood. I'm currently working on my bachelor's thesis and looking for an internship or an entry-level software engineering position where I can put my skills into practice and learn from experienced developers.
+I'm interested in **software engineering, backend development, and applied AI/ML**. Currently looking for an internship or entry-level position where I can gain hands-on experience, contribute to real projects, and learn from experienced developers.
 
 ### What I'm working on
 
-My bachelor's thesis is an **AI-powered web application for audio transcription and transcript post-processing**.
-The backend is built with Python and FastAPI, using faster-whisper for speech recognition. I'm also developing the frontend with React and Vite.
-My goal is to build a solid, well-structured application that I can continue improving beyond my bachelor's thesis.
+**[AI Audio Transcriber](https://github.com/chipqp/ai-dictaphone)** — my bachelor's thesis project.
+
+An early-stage web application for audio transcription and AI-powered text processing, built with **Python, FastAPI, React, and faster-whisper**.
+
+I'm currently developing the core functionality, with plans to explore different AI models, add transcript summarization, and deploy a Docker-based MVP.
 
 ### Tech stack
 
-- **Languages:** Python, C, Java
-- **Backend & AI:** FastAPI, faster-whisper
-- **Databases:** PostgreSQL, MongoDB
-- **Tools & technologies:** Docker, React (basic familiarity)
+- **Languages:** Python, C, Java, JavaScript, SQL, HTML/CSS
+- **Web & Backend:** FastAPI, React, REST APIs, Pydantic
+- **AI & Data:** faster-whisper, NumPy, Pandas, ML fundamentals
+- **Tools:** Git, GitHub, Linux, Docker (fundamentals)
 
-Python and C are my strongest languages, and backend development is where I feel most at home.
+### Outside of coding
 
-### What I'm interested in
-
-- AI engineering and machine learning
-- Backend development and software architecture
-- Building practical applications powered by AI
-- Learning new technologies by actually building things
-
-### Outside of coding and studying
-
-- 🏋️ Gym
-- ⚽ Football
-- 📚 Reading
+🏋️ Gym · ⚽ Football · 📚 Reading
